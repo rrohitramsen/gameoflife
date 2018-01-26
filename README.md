@@ -27,8 +27,12 @@ com.test.gameoflife.game : player and universe class.
 com.test.gameoflife.helper: SeedFileReader class..
 ~~~
 
-## `How to use`
-[game_of_life](/game_of_life.sh) script that automates the entire build and execute process.
+## `How to Start`
+* [game_of_life](/game_of_life.sh) script that automates the entire build and execute process.
+
+```
+$ ./game_of_life.sh
+```
 
 * It will build the project and create the executable jar.
 * In default it will execute the game of life for the below mentioned sample seeds.
