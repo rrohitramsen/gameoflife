@@ -60,11 +60,4 @@ $ java -jar target/game_of_life-1.0-SNAPSHOT.jar ../src/test/resources/<sample_s
 ~~~
 
 
-# `Queries and Support`
-~~~
-Email - `rrohit.ramsen@gmail.com`
-Mobile - `9910858308`
-~~~
-
-
 
