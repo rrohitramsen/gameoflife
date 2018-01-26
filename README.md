@@ -10,8 +10,15 @@ The universe of the Game of Life is an infinite two-dimensional orthogonal grid 
 4.	Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 
+## Sample seeds file
 
-# `Junit Test execute for all the below mentioned sample seeds`.
+ * [Beacon Seed](/src/test/resources/beacon_seed.txt)
+ * [Blinker Seed](/src/test/resources/blinker_seed.txt)
+ * [Glider Seed](/src/test/resources/glider_seed.txt)
+ * [Toad Seed](/src/test/resources/toad_seed.txt)
+ * [Tub Seed](/src/test/resources/tub_seed.txt)
+
+# `Junit Test execute for all the sample seeds`.
 ~~~
 com.test.gameoflife.config : Game of life start.
 
@@ -21,7 +28,7 @@ com.test.gameoflife.helper: SeedFileReader class..
 ~~~
 
 ## `How to use`
-[game_of_life](/gameoflife/game_of_life.sh) script that automates the entire build and execute process.
+[game_of_life](/game_of_life.sh) script that automates the entire build and execute process.
 
 * It will build the project and create the executable jar.
 * In default it will execute the game of life for the below mentioned sample seeds.
@@ -30,14 +37,6 @@ com.test.gameoflife.helper: SeedFileReader class..
 $ cd gameoflife
 $ ./game_of_life.sh
 ~~~
-
-## Sample seeds file
-
- * [Beacon Seed](/gameoflife/src/test/resources/beacon_seed.txt)
- * [Blinker Seed](/gameoflife/src/test/resources/blinker_seed.txt)
- * [Glider Seed](/gameoflife/src/test/resources/glider_seed.txt)
- * [Toad Seed](/gameoflife/src/test/resources/toad_seed.txt)
- * [Tub Seed](/gameoflife/src/test/resources/tub_seed.txt)
 
 This is a maven project, can run using below mentioned commands,
 ~~~
